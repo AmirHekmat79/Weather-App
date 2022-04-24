@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="title icon" href="./image/weather_og.png" />
+    <title>Weather News</title>
+</head>
+<body>
+<div style=" background: linear-gradient(45deg,#000000,#8080807d)" class="card h-50 w-50 bg-dark">  
+<div class="card-body">     
+<div class="container">
+    <div class="row justify-content-center ">
+        <div class="col">
+            <div class="input-group">
+                <input class="form-control cityInput" type="text" />
+                <div class="input-group-append">
+                  <button class="btn btn-danger searchBtn"><i class="fas fa-search-plus"></i></button>
+                </div>
+            </div>
+            <div class="cityContent mt-4">
+                <h1 class="text-light title ">Weather in Tehran</h1>
+                <h1 class="text-light Degree my-4">9</h1>
+                <div class="d-flex">
+                    <i class="fas fa-cloud mr-2 text-light"></i>
+                    <h5 class="text-light weatherType ">Windy</h5>
+                </div>
+                <h5 class="text-light Htemp">Humidity : 5</h5>
+                <h5 class="text-light Speed">Wind speed :  20 km/h</h5>
+            </div>
+            <h3 class="text-light display-5 mt-5 loadingContent">Loading...</h3>
+        </div>
+    </div>
+</div>
+</div> 
+</div>
+
+
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/script.js"></script>    
+</body>
+</html>
